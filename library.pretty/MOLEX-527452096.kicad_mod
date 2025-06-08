@@ -389,26 +389,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6c3eff30-5ad2-4863-80b7-c46a9d8ce98e")
 	)
-	(pad "21" smd custom
-		(at 6.65 -0.475)
-		(size 1.3 3.049999)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0.55 -1.525) (xy 1.75 -1.525) (xy 1.75 0.675) (xy 0.55 0.675)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "99a5951e-a087-402e-8113-e4091f0bd34b")
-	)
-	(pad "22" smd custom
+	(pad "S1" smd custom
 		(at -6.65 -0.475)
 		(size 1.3 3.049999)
 		(layers "F.Cu" "F.Mask" "F.Paste")
@@ -426,6 +407,25 @@
 			)
 		)
 		(uuid "ceec3033-46af-4a01-91cf-fc49d8fa4b08")
+	)
+	(pad "S2" smd custom
+		(at 6.65 -0.475)
+		(size 1.3 3.049999)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.55 -1.525) (xy 1.75 -1.525) (xy 1.75 0.675) (xy 0.55 0.675)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "99a5951e-a087-402e-8113-e4091f0bd34b")
 	)
 	(embedded_fonts no)
 )
