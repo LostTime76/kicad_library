@@ -951,7 +951,7 @@
 			)
 		)
 	)
-	(pad "L1" thru_hole oval
+	(pad "1" thru_hole oval
 		(at 0 1.25)
 		(size 3.3 1.65)
 		(drill 1.1)
@@ -960,7 +960,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "53cffed4-a308-4454-8f34-43b629b027a8")
 	)
-	(pad "L2" thru_hole oval
+	(pad "2" thru_hole oval
 		(at 0 -1.25)
 		(size 3.3 1.65)
 		(drill 1.1)
