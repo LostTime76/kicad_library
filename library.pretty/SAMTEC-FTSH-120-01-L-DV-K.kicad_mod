@@ -1,4 +1,4 @@
-(footprint "SAMTEC_FTSH-120-01-L-DV-K"
+(footprint "SAMTEC-FTSH-120-01-L-DV-K"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "SAMTEC_FTSH-120-01-L-DV-K"
+	(property "Value" "SAMTEC-FTSH-120-01-L-DV-K"
 		(at 4.08 5.295 0)
 		(layer "F.Fab")
 		(uuid "5daf602c-9d96-493d-9782-3a14ca4487a5")
