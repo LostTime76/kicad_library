@@ -2,48 +2,41 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "GW1N-6&9_LQ100"
-		(pin_names
-			(offset 1.016)
-		)
+	(symbol "GW5A-LV25LQ144"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 5.08 6.35 0)
+			(at 8.636 3.556 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "GW1N-6&9_LQ100"
-			(at 5.08 3.81 0)
+		(property "Value" "GW5A-LV25LQ144"
+			(at 8.382 1.524 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 5.08 1.27 0)
+		(property "Footprint" "Package_QFP:LQFP-144_20x20mm_P0.5mm"
+			(at 7.112 1.524 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 5.08 -3.81 0)
+			(at 0 0 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -56,503 +49,42 @@
 				(hide yes)
 			)
 		)
-		(property "desc" "GW1N-6&9_LQ100"
-			(at 5.08 -6.35 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "GW1N-6&9_LQ100_1_1"
+		(symbol "GW5A-LV25LQ144_1_1"
 			(rectangle
-				(start 5.08 2.54)
-				(end 15.24 -22.86)
+				(start 0 0)
+				(end 16.51 -30.48)
 				(stroke
-					(width 0.3048)
+					(width 0)
 					(type solid)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 5.08)
-				(name "IOT15A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 16.51 -2.54)
 				)
-				(number "95"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -2.54 0)
-				(length 5.08)
-				(name "IOT15B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "94"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -5.08 0)
-				(length 5.08)
-				(name "IOT17A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "93"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -7.62 0)
-				(length 5.08)
-				(name "IOT17B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "92"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -10.16 0)
-				(length 5.08)
-				(name "IOT20A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "91"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -12.7 0)
-				(length 5.08)
-				(name "IOT22A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "90"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -15.24 0)
-				(length 5.08)
-				(name "IOT22B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "89"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -17.78 0)
-				(length 5.08)
-				(name "IOT32A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "86"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -20.32 0)
-				(length 5.08)
-				(name "IOT32B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "85"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "GW1N-6&9_LQ100_2_1"
-			(rectangle
-				(start 5.08 2.54)
-				(end 33.02 -60.96)
 				(stroke
-					(width 0.3048)
+					(width 0)
 					(type solid)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 5.08)
-				(name "IOR5A/RPLL_T_in"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "73"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(text "BANK0"
+				(at 7.874 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -2.54 0)
-				(length 5.08)
-				(name "IOR5B/RPLL_C_in"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "72"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -5.08 0)
-				(length 5.08)
-				(name "IOR9A/GCLKT_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "70"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -7.62 0)
-				(length 5.08)
-				(name "IOR9B/GCLKC_2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "69"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -10.16 0)
-				(length 5.08)
-				(name "IOR11A/MI/D7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "68"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -12.7 0)
-				(length 5.08)
-				(name "IOR11B/MO/D6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "67"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -15.24 0)
-				(length 5.08)
-				(name "IOR12A/MCS_N/D5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "66"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -17.78 0)
-				(length 5.08)
-				(name "IOR12B/MCLK/D4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "65"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -20.32 0)
-				(length 5.08)
-				(name "IOR13A/FASTRD_N/D3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "64"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -22.86 0)
-				(length 5.08)
-				(name "IOR13B/SI/D2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "62"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -25.4 0)
-				(length 5.08)
-				(name "IOR14A/SO/D1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "61"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -27.94 0)
-				(length 5.08)
-				(name "IOR14B/SSPI_CS_N/D0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "60"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -30.48 0)
-				(length 5.08)
-				(name "IOR15A/DIN/CLKHOLD_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "59"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -33.02 0)
-				(length 5.08)
-				(name "IOR15B/DOUT/WE_N"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "58"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -35.56 0)
-				(length 5.08)
-				(name "IOR17A/GCLKT_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "57"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -38.1 0)
-				(length 5.08)
-				(name "IOR17B/GCLKC_3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "56"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -40.64 0)
-				(length 5.08)
-				(name "IOT37A"
+				(at -3.81 -5.08 0)
+				(length 3.81)
+				(name "IOT56B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -568,34 +100,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -43.18 0)
-				(length 5.08)
-				(name "IOT37B"
+				(at -3.81 -7.62 0)
+				(length 3.81)
+				(name "IOT56A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "83"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -45.72 0)
-				(length 5.08)
-				(name "IOT39A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "82"
+				(number "85"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -604,34 +118,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -48.26 0)
-				(length 5.08)
-				(name "IOT39B"
+				(at -3.81 -10.16 0)
+				(length 3.81)
+				(name "IOT52B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "81"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -50.8 0)
-				(length 5.08)
-				(name "IOT41A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "80"
+				(number "86"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -640,16 +136,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -53.34 0)
-				(length 5.08)
-				(name "IOT41B"
+				(at -3.81 -12.7 0)
+				(length 3.81)
+				(name "IOT52A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "79"
+				(number "87"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -658,9 +154,186 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -55.88 0)
-				(length 5.08)
-				(name "IOT42A"
+				(at -3.81 -15.24 0)
+				(length 3.81)
+				(name "IOT50B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "88"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -17.78 0)
+				(length 3.81)
+				(name "IOT50A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "90"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -20.32 0)
+				(length 3.81)
+				(name "IOT31B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "92"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -22.86 0)
+				(length 3.81)
+				(name "IOT31A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "93"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -25.4 0)
+				(length 3.81)
+				(name "IOT29B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "94"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -27.94 0)
+				(length 3.81)
+				(name "IOT29A/PUDC_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "95"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GW5A-LV25LQ144_2_1"
+			(rectangle
+				(start 0 0)
+				(end 8.89 -22.86)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 8.89 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "BANK1"
+				(at 4.572 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -5.08 0)
+				(length 3.81)
+				(name "IOT91B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "75"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -7.62 0)
+				(length 3.81)
+				(name "IOT91A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "76"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -10.16 0)
+				(length 3.81)
+				(name "IOT72B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -676,16 +349,70 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -58.42 0)
-				(length 5.08)
-				(name "IOT42B"
+				(at -3.81 -12.7 0)
+				(length 3.81)
+				(name "IOT72A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "77"
+				(number "79"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -15.24 0)
+				(length 3.81)
+				(name "IOT70A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "80"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -17.78 0)
+				(length 3.81)
+				(name "IOT61B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "82"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -20.32 0)
+				(length 3.81)
+				(name "IOT61A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "83"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -694,238 +421,42 @@
 				)
 			)
 		)
-		(symbol "GW1N-6&9_LQ100_3_1"
+		(symbol "GW5A-LV25LQ144_3_1"
 			(rectangle
-				(start 5.08 2.54)
-				(end 25.4 -66.04)
+				(start 0 0)
+				(end 8.89 -66.04)
 				(stroke
-					(width 0.3048)
+					(width 0)
 					(type solid)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(pin bidirectional line
-				(at 0 0 0)
-				(length 5.08)
-				(name "IOB6A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 8.89 -2.54)
 				)
-				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "BANK2"
+				(at 4.572 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -2.54 0)
-				(length 5.08)
-				(name "IOB6B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -5.08 0)
-				(length 5.08)
-				(name "IOB8A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -7.62 0)
-				(length 5.08)
-				(name "IOB8B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -10.16 0)
-				(length 5.08)
-				(name "IOB11A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -12.7 0)
-				(length 5.08)
-				(name "IOB11B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -15.24 0)
-				(length 5.08)
-				(name "IOB13A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -17.78 0)
-				(length 5.08)
-				(name "IOB13B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -20.32 0)
-				(length 5.08)
-				(name "IOB15A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -22.86 0)
-				(length 5.08)
-				(name "IOB15B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -25.4 0)
-				(length 5.08)
-				(name "IOB17A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -27.94 0)
-				(length 5.08)
-				(name "IOB17B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -30.48 0)
-				(length 5.08)
-				(name "IOB28A/GCLKT_5"
+				(at -3.81 -5.08 0)
+				(length 3.81)
+				(name "IOR31B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -941,27 +472,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -33.02 0)
-				(length 5.08)
-				(name "IOB28B/GCLKC_5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "40"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -35.56 0)
-				(length 5.08)
-				(name "IOB29A/GCLKT_4"
+				(at -3.81 -7.62 0)
+				(length 3.81)
+				(name "IOR31A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -977,9 +490,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -38.1 0)
-				(length 5.08)
-				(name "IOB29B/GCLKC_4"
+				(at -3.81 -10.16 0)
+				(length 3.81)
+				(name "IOR29B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -995,9 +508,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -40.64 0)
-				(length 5.08)
-				(name "IOB31A"
+				(at -3.81 -12.7 0)
+				(length 3.81)
+				(name "IOR29A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1013,9 +526,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -43.18 0)
-				(length 5.08)
-				(name "IOB31B"
+				(at -3.81 -15.24 0)
+				(length 3.81)
+				(name "IOR26B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1031,9 +544,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -45.72 0)
-				(length 5.08)
-				(name "IOB33A"
+				(at -3.81 -17.78 0)
+				(length 3.81)
+				(name "IOR26A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1049,9 +562,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -48.26 0)
-				(length 5.08)
-				(name "IOB33B"
+				(at -3.81 -20.32 0)
+				(length 3.81)
+				(name "IOR24B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1067,9 +580,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -50.8 0)
-				(length 5.08)
-				(name "IOB35A"
+				(at -3.81 -22.86 0)
+				(length 3.81)
+				(name "IOR24A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1085,9 +598,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -53.34 0)
-				(length 5.08)
-				(name "IOB35B"
+				(at -3.81 -25.4 0)
+				(length 3.81)
+				(name "IOR22B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1103,9 +616,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -55.88 0)
-				(length 5.08)
-				(name "IOB39A"
+				(at -3.81 -27.94 0)
+				(length 3.81)
+				(name "IOR22A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1121,9 +634,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -58.42 0)
-				(length 5.08)
-				(name "IOB39B"
+				(at -3.81 -30.48 0)
+				(length 3.81)
+				(name "IOR20B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1139,16 +652,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -60.96 0)
-				(length 5.08)
-				(name "IOB43A"
+				(at -3.81 -33.02 0)
+				(length 3.81)
+				(name "IOR20A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "55"
+				(number "52"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1157,16 +670,214 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -63.5 0)
-				(length 5.08)
-				(name "IOB43B"
+				(at -3.81 -35.56 0)
+				(length 3.81)
+				(name "IOR18B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "53"
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -38.1 0)
+				(length 3.81)
+				(name "IOR18A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -40.64 0)
+				(length 3.81)
+				(name "IOR16B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -43.18 0)
+				(length 3.81)
+				(name "IOR16A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -45.72 0)
+				(length 3.81)
+				(name "IOR14B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -48.26 0)
+				(length 3.81)
+				(name "IOR14A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -50.8 0)
+				(length 3.81)
+				(name "IOR12A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -53.34 0)
+				(length 3.81)
+				(name "IOR12B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -55.88 0)
+				(length 3.81)
+				(name "IOR9A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -58.42 0)
+				(length 3.81)
+				(name "IOR9B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -60.96 0)
+				(length 3.81)
+				(name "IOR7A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "66"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -63.5 0)
+				(length 3.81)
+				(name "IOR7B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "67"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1175,29 +886,49 @@
 				)
 			)
 		)
-		(symbol "GW1N-6&9_LQ100_4_1"
+		(symbol "GW5A-LV25LQ144_4_1"
 			(rectangle
-				(start 5.08 2.54)
-				(end 40.64 -53.34)
+				(start 0 0)
+				(end 8.89 -12.7)
 				(stroke
-					(width 0.3048)
+					(width 0)
 					(type solid)
 				)
 				(fill
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 8.89 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "BANK3"
+				(at 4.572 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin bidirectional line
-				(at 0 0 0)
-				(length 5.08)
-				(name "IOL5A/JTAGSEL_N/LPLL_T_in"
+				(at -3.81 -5.08 0)
+				(length 3.81)
+				(name "IOB65B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "32"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1206,34 +937,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -2.54 0)
-				(length 5.08)
-				(name "IOL7B"
+				(at -3.81 -7.62 0)
+				(length 3.81)
+				(name "IOB75A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -5.08 0)
-				(length 5.08)
-				(name "IOL9A/GCLKT_7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
+				(number "34"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1242,34 +955,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -7.62 0)
-				(length 5.08)
-				(name "IOL9B/GCLKC_7"
+				(at -3.81 -10.16 0)
+				(length 3.81)
+				(name "IOB75B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -10.16 0)
-				(length 5.08)
-				(name "IOL11A/TMS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
+				(number "35"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1277,28 +972,43 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 0 -12.7 0)
-				(length 5.08)
-				(name "IOL11B/TCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
+		)
+		(symbol "GW5A-LV25LQ144_5_1"
+			(rectangle
+				(start 0 0)
+				(end 19.05 -48.26)
+				(stroke
+					(width 0)
+					(type solid)
 				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 19.05 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "BANK4"
+				(at 9.398 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
 			(pin bidirectional line
-				(at 0 -15.24 0)
-				(length 5.08)
-				(name "IOL12A/SCLK"
+				(at -3.81 -5.08 0)
+				(length 3.81)
+				(name "IOB31A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1314,9 +1024,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -17.78 0)
-				(length 5.08)
-				(name "IOL12B/TDI"
+				(at -3.81 -7.62 0)
+				(length 3.81)
+				(name "IOB31B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1332,16 +1042,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -20.32 0)
-				(length 5.08)
-				(name "IOL13A/TDO"
+				(at -3.81 -10.16 0)
+				(length 3.81)
+				(name "IOB33A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1350,9 +1060,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -22.86 0)
-				(length 5.08)
-				(name "IOL13B/RECONFIG_N"
+				(at -3.81 -12.7 0)
+				(length 3.81)
+				(name "IOB33B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1368,9 +1078,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -25.4 0)
-				(length 5.08)
-				(name "IOL14A/DONE"
+				(at -3.81 -15.24 0)
+				(length 3.81)
+				(name "IOB37A/C_RDY"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1386,9 +1096,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -27.94 0)
-				(length 5.08)
-				(name "IOL14B/READY"
+				(at -3.81 -17.78 0)
+				(length 3.81)
+				(name "IOB37B/C_SCS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1404,45 +1114,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -30.48 0)
-				(length 5.08)
-				(name "IOL15A/GCLKT_6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -33.02 0)
-				(length 5.08)
-				(name "IOL15B/GCLKC_6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -35.56 0)
-				(length 5.08)
-				(name "IOL20A"
+				(at -3.81 -20.32 0)
+				(length 3.81)
+				(name "IOB50A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1458,9 +1132,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -38.1 0)
-				(length 5.08)
-				(name "IOL20B"
+				(at -3.81 -22.86 0)
+				(length 3.81)
+				(name "IOB50B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1476,34 +1150,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -40.64 0)
-				(length 5.08)
-				(name "IOT5A/MODE0"
+				(at -3.81 -25.4 0)
+				(length 3.81)
+				(name "IOB52A/C_MODE1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "100"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 0 -43.18 0)
-				(length 5.08)
-				(name "IOT8A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "99"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1512,16 +1168,16 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -45.72 0)
-				(length 5.08)
-				(name "IOT8B"
+				(at -3.81 -27.94 0)
+				(length 3.81)
+				(name "IOB52B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "98"
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1530,9 +1186,882 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -48.26 0)
-				(length 5.08)
-				(name "IOT12A"
+				(at -3.81 -30.48 0)
+				(length 3.81)
+				(name "IOB54A/C_D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -33.02 0)
+				(length 3.81)
+				(name "IOB54B/C_D3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -35.56 0)
+				(length 3.81)
+				(name "IOB58A/C_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -38.1 0)
+				(length 3.81)
+				(name "IOB58B/C_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -40.64 0)
+				(length 3.81)
+				(name "IOB62A/C_SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -43.18 0)
+				(length 3.81)
+				(name "IOB62B/C_MODE0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -45.72 0)
+				(length 3.81)
+				(name "IOB64A/C_DONE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GW5A-LV25LQ144_6_1"
+			(rectangle
+				(start 0 0)
+				(end 15.24 -33.02)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 15.24 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "BANK5"
+				(at 7.62 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -5.08 0)
+				(length 3.81)
+				(name "IOB10B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -7.62 0)
+				(length 3.81)
+				(name "IOB12B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -10.16 0)
+				(length 3.81)
+				(name "IOB12A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -12.7 0)
+				(length 3.81)
+				(name "IOB14A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -15.24 0)
+				(length 3.81)
+				(name "IOB14B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -17.78 0)
+				(length 3.81)
+				(name "IOB1A/C_RST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "139"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -20.32 0)
+				(length 3.81)
+				(name "IOB4B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "140"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -22.86 0)
+				(length 3.81)
+				(name "IOB4A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "141"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -25.4 0)
+				(length 3.81)
+				(name "IOB8B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "142"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -27.94 0)
+				(length 3.81)
+				(name "IOB8A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "143"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -30.48 0)
+				(length 3.81)
+				(name "IOB10A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "144"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GW5A-LV25LQ144_7_1"
+			(rectangle
+				(start 0 0)
+				(end 8.89 -66.04)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 8.89 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "BANK6"
+				(at 4.572 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -5.08 0)
+				(length 3.81)
+				(name "IOL3B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "111"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -7.62 0)
+				(length 3.81)
+				(name "IOL3A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "112"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -10.16 0)
+				(length 3.81)
+				(name "IOL5B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "113"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -12.7 0)
+				(length 3.81)
+				(name "IOL5A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "114"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -15.24 0)
+				(length 3.81)
+				(name "IOL7B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "115"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -17.78 0)
+				(length 3.81)
+				(name "IOL7A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "116"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -20.32 0)
+				(length 3.81)
+				(name "IOL9A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "118"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -22.86 0)
+				(length 3.81)
+				(name "IOL9B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "119"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -25.4 0)
+				(length 3.81)
+				(name "IOL12A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "120"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -27.94 0)
+				(length 3.81)
+				(name "IOL12B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "121"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -30.48 0)
+				(length 3.81)
+				(name "IOL14A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "122"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -33.02 0)
+				(length 3.81)
+				(name "IOL14B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "123"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -35.56 0)
+				(length 3.81)
+				(name "IOL16A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "124"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -38.1 0)
+				(length 3.81)
+				(name "IOL16B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "125"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -40.64 0)
+				(length 3.81)
+				(name "IOL18A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "126"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -43.18 0)
+				(length 3.81)
+				(name "IOL18B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "128"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -45.72 0)
+				(length 3.81)
+				(name "IOL21A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "129"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -48.26 0)
+				(length 3.81)
+				(name "IOL21B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "130"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -50.8 0)
+				(length 3.81)
+				(name "IOL23A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "131"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -53.34 0)
+				(length 3.81)
+				(name "IOL25A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "133"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -55.88 0)
+				(length 3.81)
+				(name "IOL23B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "134"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -58.42 0)
+				(length 3.81)
+				(name "IOL25B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "135"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -60.96 0)
+				(length 3.81)
+				(name "IOL27A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "136"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -63.5 0)
+				(length 3.81)
+				(name "IOL27B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "137"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GW5A-LV25LQ144_8_1"
+			(rectangle
+				(start 0 0)
+				(end 8.89 -27.94)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 8.89 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "BANK7"
+				(at 4.572 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -5.08 0)
+				(length 3.81)
+				(name "IOT27B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "96"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -7.62 0)
+				(length 3.81)
+				(name "IOT27A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1548,16 +2077,124 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 -50.8 0)
-				(length 5.08)
-				(name "IOT12B"
+				(at -3.81 -10.16 0)
+				(length 3.81)
+				(name "IOT25B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "96"
+				(number "98"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -12.7 0)
+				(length 3.81)
+				(name "IOT25A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "99"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -15.24 0)
+				(length 3.81)
+				(name "IOT19B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "101"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -17.78 0)
+				(length 3.81)
+				(name "IOT19A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "102"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -20.32 0)
+				(length 3.81)
+				(name "IOT5A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "104"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -22.86 0)
+				(length 3.81)
+				(name "IOT3A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "105"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -25.4 0)
+				(length 3.81)
+				(name "IOT3B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "106"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1566,29 +2203,49 @@
 				)
 			)
 		)
-		(symbol "GW1N-6&9_LQ100_5_1"
+		(symbol "GW5A-LV25LQ144_9_1"
 			(rectangle
-				(start 5.08 2.54)
-				(end 15.24 -50.8)
+				(start 0 0)
+				(end 15.24 -15.24)
 				(stroke
-					(width 0.3048)
+					(width 0)
 					(type solid)
 				)
 				(fill
 					(type background)
 				)
 			)
-			(pin power_in line
-				(at 0 0 0)
-				(length 5.08)
-				(name "VCCIO0"
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 15.24 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "BANK10"
+				(at 7.62 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -3.81 -5.08 0)
+				(length 3.81)
+				(name "IOR3A/C_JTMS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "76"
+				(number "68"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1596,35 +2253,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -2.54 0)
-				(length 5.08)
-				(name "VCCIO0"
+			(pin bidirectional line
+				(at -3.81 -7.62 0)
+				(length 3.81)
+				(name "IOR3B/C_JTDO"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "88"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -5.08 0)
-				(length 5.08)
-				(name "VCCIO1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "63"
+				(number "69"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1632,10 +2271,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -7.62 0)
-				(length 5.08)
-				(name "VCCIO1"
+			(pin bidirectional line
+				(at -3.81 -10.16 0)
+				(length 3.81)
+				(name "IOR1A/C_JTCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1650,17 +2289,68 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -10.16 0)
-				(length 5.08)
-				(name "VCCIO2"
+			(pin bidirectional line
+				(at -3.81 -12.7 0)
+				(length 3.81)
+				(name "IOR1B/C_JTDI"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "26"
+				(number "72"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GW5A-LV25LQ144_10_1"
+			(rectangle
+				(start 0 0)
+				(end 19.05 -93.98)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 19.05 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "POWER"
+				(at 9.652 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -5.08 0)
+				(length 3.81)
+				(name "VEFUSE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1669,98 +2359,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 0)
-				(length 5.08)
-				(name "VCCIO2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -15.24 0)
-				(length 5.08)
-				(name "VCCIO3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -17.78 0)
-				(length 5.08)
-				(name "VCCIO3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -20.32 0)
-				(length 5.08)
-				(name "VCCX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -22.86 0)
-				(length 5.08)
-				(name "VCCX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "54"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -25.4 0)
-				(length 5.08)
+				(at -3.81 -7.62 0)
+				(length 3.81)
 				(name "VCC"
 					(effects
 						(font
@@ -1777,8 +2377,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -27.94 0)
-				(length 5.08)
+				(at -3.81 -10.16 0)
+				(length 3.81)
 				(name "VCC"
 					(effects
 						(font
@@ -1786,7 +2386,7 @@
 						)
 					)
 				)
-				(number "25"
+				(number "36"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1795,9 +2395,135 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -30.48 0)
-				(length 5.08)
+				(at -3.81 -12.7 0)
+				(length 3.81)
 				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -15.24 0)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "73"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -17.78 0)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "81"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -20.32 0)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "108"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -22.86 0)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "110"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -25.4 0)
+				(length 3.81)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "138"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -27.94 0)
+				(length 3.81)
+				(name "VCCIO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "77"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -30.48 0)
+				(length 3.81)
+				(name "VCCIO2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1813,16 +2539,16 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -33.02 0)
-				(length 5.08)
-				(name "VCC"
+				(at -3.81 -33.02 0)
+				(length 3.81)
+				(name "VCCIO2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "75"
+				(number "55"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1831,8 +2557,314 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -35.56 0)
-				(length 5.08)
+				(at -3.81 -35.56 0)
+				(length 3.81)
+				(name "VCCIO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -38.1 0)
+				(length 3.81)
+				(name "VCCIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -40.64 0)
+				(length 3.81)
+				(name "VCCIO3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -43.18 0)
+				(length 3.81)
+				(name "VCCIO0_4_VCCLDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -45.72 0)
+				(length 3.81)
+				(name "VCCIO0_4_VCCLDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -48.26 0)
+				(length 3.81)
+				(name "VCCIO0_4_VCCLDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -50.8 0)
+				(length 3.81)
+				(name "VCCIO0_4_VCCLDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "91"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -53.34 0)
+				(length 3.81)
+				(name "VCCIO5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -55.88 0)
+				(length 3.81)
+				(name "VCCIO5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -58.42 0)
+				(length 3.81)
+				(name "VCCIO6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "117"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -60.96 0)
+				(length 3.81)
+				(name "VCCIO6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "127"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -63.5 0)
+				(length 3.81)
+				(name "VCCIO6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "132"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -66.04 0)
+				(length 3.81)
+				(name "VCCIO7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "100"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -68.58 0)
+				(length 3.81)
+				(name "VCCIO7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "103"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -71.12 0)
+				(length 3.81)
+				(name "VCCIO10_VCCX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -73.66 0)
+				(length 3.81)
+				(name "VCCIO10_VCCX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "70"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -76.2 0)
+				(length 3.81)
+				(name "VCCIO10_VCCX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "109"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -78.74 0)
+				(length 3.81)
 				(name "VSS"
 					(effects
 						(font
@@ -1849,8 +2881,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -38.1 0)
-				(length 5.08)
+				(at -3.81 -81.28 0)
+				(length 3.81)
 				(name "VSS"
 					(effects
 						(font
@@ -1858,7 +2890,7 @@
 						)
 					)
 				)
-				(number "24"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1867,8 +2899,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -40.64 0)
-				(length 5.08)
+				(at -3.81 -83.82 0)
+				(length 3.81)
 				(name "VSS"
 					(effects
 						(font
@@ -1876,7 +2908,7 @@
 						)
 					)
 				)
-				(number "37"
+				(number "53"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1885,26 +2917,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 0)
-				(length 5.08)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "52"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -45.72 0)
-				(length 5.08)
+				(at -3.81 -86.36 0)
+				(length 3.81)
 				(name "VSS"
 					(effects
 						(font
@@ -1921,8 +2935,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -48.26 0)
-				(length 5.08)
+				(at -3.81 -88.9 0)
+				(length 3.81)
 				(name "VSS"
 					(effects
 						(font
@@ -1930,7 +2944,25 @@
 						)
 					)
 				)
-				(number "87"
+				(number "89"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -91.44 0)
+				(length 3.81)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "107"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5941,7 +6973,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TPSM82821ASILR"
+	(symbol "TPSM8282xSILR"
 		(pin_names
 			(offset 0.254)
 		)
@@ -5956,7 +6988,7 @@
 				)
 			)
 		)
-		(property "Value" "TPSM82821ASILR"
+		(property "Value" "TPSM8282xSILR"
 			(at 6.096 2.794 0)
 			(effects
 				(font
@@ -6011,7 +7043,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TPSM82821ASILR_0_1"
+		(symbol "TPSM8282xSILR_0_1"
 			(pin power_in line
 				(at -3.81 -1.27 0)
 				(length 3.81)
@@ -6193,7 +7225,7 @@
 				)
 			)
 		)
-		(symbol "TPSM82821ASILR_1_1"
+		(symbol "TPSM8282xSILR_1_1"
 			(rectangle
 				(start 0 1.27)
 				(end 12.7 -19.05)
@@ -6216,7 +7248,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 20.32 7.62 0)
+			(at 6.096 6.858 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -6224,15 +7256,15 @@
 			)
 		)
 		(property "Value" "TPSM8290xSISR"
-			(at 20.32 5.08 0)
+			(at 6.096 4.318 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Library:TI-USIP-11"
-			(at 21.082 2.54 0)
+		(property "Footprint" "Library:TI-USIP11"
+			(at 6.858 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)

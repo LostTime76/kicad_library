@@ -1,4 +1,4 @@
-(footprint "TI-USIP-11"
+(footprint "TI-USIP11"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "TI-USIP-11"
+	(property "Value" "TI-USIP11"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
