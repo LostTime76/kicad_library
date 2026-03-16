@@ -1,0 +1,204 @@
+(footprint "WE-LHMI-4020"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Shielded Power Inductor, body 4.45x4.06x1.8mm, https://www.we-online.com/en/components/products/WE-LHMI#/articles/4020HT")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -3.28 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b128a9b0-0f89-45c7-991a-8262c27cb5a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-LHMI-4020"
+		(at 0 3.28 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "926a1b18-91ee-4ad3-9b6b-ade40d435063")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c4631e5-116b-4212-98ec-b68e7ed0e8b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3de3bda8-9bbb-4e6f-82c1-d80c3021fffe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.335 2.14)
+		(end -2.335 1.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "528bd7b1-076a-41d6-9daf-b1ac5f15e791")
+	)
+	(fp_line
+		(start -2.335 2.14)
+		(end 2.335 2.14)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0a657a8-ee8b-4391-bc3a-607c0f06f76f")
+	)
+	(fp_line
+		(start 0 -2.14)
+		(end 2.335 -2.14)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f57b3153-090c-4462-8332-bd48883e972e")
+	)
+	(fp_line
+		(start 2.335 -2.14)
+		(end 2.335 -1.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93150703-8d6b-431d-b065-5fde941338fe")
+	)
+	(fp_line
+		(start 2.335 2.14)
+		(end 2.335 1.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58ab5078-5283-456d-af67-566fcbbe679c")
+	)
+	(fp_rect
+		(start -2.85 -2.28)
+		(end 2.85 2.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "26c5c4bb-19a3-466b-b17b-c8514979efa5")
+	)
+	(fp_line
+		(start -2.225 -1.015)
+		(end -2.225 2.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f5e1836-f35d-4835-9b3e-ad6f99682d9c")
+	)
+	(fp_line
+		(start -2.225 2.03)
+		(end 2.225 2.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37bfe20e-c28d-4a54-8557-1748ae891441")
+	)
+	(fp_line
+		(start -1.21 -2.03)
+		(end -2.225 -1.015)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f51be23a-ea0d-41f0-8b66-44bc4ca9e9af")
+	)
+	(fp_line
+		(start 2.225 -2.03)
+		(end -1.21 -2.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86af9427-9913-482b-ac8a-2546696f6559")
+	)
+	(fp_line
+		(start 2.225 2.03)
+		(end 2.225 -2.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "40d347e0-b1d6-4830-aada-4b677bba7fd1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1f92dd1c-1708-47b2-92b7-0fd60c30a927")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.85 0)
+		(size 1.5 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb9c720d-cf96-4a33-9d64-e03db88621d7")
+	)
+	(pad "2" smd rect
+		(at 1.85 0)
+		(size 1.5 2.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a76ff910-1ef6-4d1f-bbbb-c9081b6c13c3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../library/models/WE-LHMI-4020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,180 @@
+(footprint "WE-PPTI-1209"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Push-Pull Transformers, body 8x9.14x7.62mm, https://www.we-online.com/en/components/products/WE-PPTI#/articles/WE-PPTI-1209")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 -5.82 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2edfb351-804c-41fb-b6bf-e9328452b560")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WE-PPTI-1209"
+		(at 0 5.82 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe0f50c4-2f5c-4e50-8976-37984cc9a6d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c251c914-e46c-4df2-baea-114d8dd2cc4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d081df35-3c27-450f-896d-da9a209a469a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.94 -3.62)
+		(end -6.94 -2.48)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8889eba8-24a3-4341-9d9e-f77d0134ef5f")
+	)
+	(fp_rect
+		(start -4.11 -4.68)
+		(end 4.11 4.68)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6a3f4a02-64d8-4946-8d27-9011168cb02c")
+	)
+	(fp_rect
+		(start -6.855 -4.82)
+		(end 6.855 4.82)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2ac8de41-067c-4c03-80cd-d6e603684b03")
+	)
+	(fp_line
+		(start -4 -3.62)
+		(end -4.684 -3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0206903-e116-481d-b7e4-77fdaf527811")
+	)
+	(fp_line
+		(start -4 -2.48)
+		(end -4.684 -3.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1fc4b7f6-173d-432c-bd34-f1d9c7a2bca0")
+	)
+	(fp_rect
+		(start -4 -4.57)
+		(end 4 4.57)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "42527493-134e-41d4-9073-6a87769d3514")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e7974153-c662-4374-b7b7-7e2716850ef6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -5.655 -3.05)
+		(size 1.9 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3873e0f2-736c-48d8-a15f-187c86cc453c")
+	)
+	(pad "2" smd rect
+		(at -5.655 0)
+		(size 1.9 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b97f210c-90d0-4954-b8f3-c99f84673be5")
+	)
+	(pad "3" smd rect
+		(at -5.655 3.05)
+		(size 1.9 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e44bf489-4c9a-45ff-ab28-a47c8ea0f393")
+	)
+	(pad "4" smd rect
+		(at 5.655 3.05)
+		(size 1.9 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "093a3a75-6b4e-4179-9363-52a849fd8f53")
+	)
+	(pad "5" smd rect
+		(at 5.655 0)
+		(size 1.9 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "08de2fc0-9e9e-46a7-bb0a-a687404e371f")
+	)
+	(pad "6" smd rect
+		(at 5.655 -3.05)
+		(size 1.9 1.14)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4b61f64e-8521-4ad1-877a-ed6fb4326bc9")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../library/models/WE-PPTI-1209.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
